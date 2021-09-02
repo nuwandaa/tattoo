@@ -120,20 +120,20 @@ function PhoneBottomNav(props) {
     const location = useLocation();
 
     return (
-        <Container className={location.pathname.split('/')[1] === 'detail' ? "hidden" : ""}>
+        <Container className={location.pathname.split('/')[2] === 'detail' ? "hidden" : ""}>
           <NavItems>
             <NavItem>
-              <NavBtn exact to="/" activeClassName="active">
+              <NavBtn exact to="/tattoo" activeClassName="active">
                         <NavIcon><FaHome /></NavIcon>
                     </NavBtn>
             </NavItem>
             <NavItem>
-              <NavBtn exact to="/explore"  activeClassName="active">
+              <NavBtn exact to="/tattoo/explore"  activeClassName="active">
                         <NavIcon><FaSearch /></NavIcon>
                     </NavBtn>
             </NavItem>
             <NavItem>
-              <NavBtn exact to="/contact" activeClassName="active">
+              <NavBtn exact to="/tattoo/contact" activeClassName="active">
                         <NavIcon><FaEnvelope /></NavIcon>
                     </NavBtn>
             </NavItem>

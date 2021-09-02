@@ -84,13 +84,13 @@ function DesktopNav(props) {
         <Container>
 			<NavItems>
 				<NavItem>
-					<NavItemLink exact to='/' activeClassName="active">Home</NavItemLink>
+					<NavItemLink exact to='/tattoo' activeClassName="active">Home</NavItemLink>
 				</NavItem>
 				<NavItem>
-					<NavItemLink exact to='/explore' activeClassName="active">Explore</NavItemLink>
+					<NavItemLink exact to='/tattoo/explore' activeClassName="active">Explore</NavItemLink>
 				</NavItem>
 				<NavItem>
-					<NavItemLink exact to='/contact' activeClassName="active">Contact</NavItemLink>
+					<NavItemLink exact to='/tattoo/contact' activeClassName="active">Contact</NavItemLink>
 				</NavItem>
 				<NavItem>
 					<ToggleBtn onClick={changeTheme}>{props.theme === 'light' ? <FiMoon /> : <FiSun />}</ToggleBtn>
