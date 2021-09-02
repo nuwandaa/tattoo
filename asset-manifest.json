@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/tattoo/static/css/main.d5a84f82.chunk.css",
+    "main.js": "/tattoo/static/js/main.b59247d5.chunk.js",
+    "main.js.map": "/tattoo/static/js/main.b59247d5.chunk.js.map",
+    "runtime-main.js": "/tattoo/static/js/runtime-main.ec0249eb.js",
+    "runtime-main.js.map": "/tattoo/static/js/runtime-main.ec0249eb.js.map",
+    "static/js/2.cab99537.chunk.js": "/tattoo/static/js/2.cab99537.chunk.js",
+    "static/js/2.cab99537.chunk.js.map": "/tattoo/static/js/2.cab99537.chunk.js.map",
+    "index.html": "/tattoo/index.html",
+    "static/css/main.d5a84f82.chunk.css.map": "/tattoo/static/css/main.d5a84f82.chunk.css.map",
+    "static/js/2.cab99537.chunk.js.LICENSE.txt": "/tattoo/static/js/2.cab99537.chunk.js.LICENSE.txt",
+    "static/media/shop.e2c4f779.jpg": "/tattoo/static/media/shop.e2c4f779.jpg",
+    "static/media/tattoo-logo-white.fe31819f.png": "/tattoo/static/media/tattoo-logo-white.fe31819f.png",
+    "static/media/tattoo-logo.268b62ed.png": "/tattoo/static/media/tattoo-logo.268b62ed.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ec0249eb.js",
+    "static/js/2.cab99537.chunk.js",
+    "static/css/main.d5a84f82.chunk.css",
+    "static/js/main.b59247d5.chunk.js"
+  ]
+}
