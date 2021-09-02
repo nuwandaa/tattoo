@@ -34,16 +34,16 @@ function App() {
                 <Container>
                     <Header theme={theme} setTheme={setTheme} />
                     <Switch>
-                        <Route path="/" exact>
+                        <Route path="/tattoo" exact>
                             <Home />
                         </Route>
-                        <Route path="/explore">
+                        <Route path="/tattoo/explore">
                             <Explore />
                         </Route>
-                        <Route path="/detail">
+                        <Route path="/tattoo/detail">
                             <Detail />
                         </Route>
-                        <Route path="/contact">
+                        <Route path="/tattoo/contact">
                             <Contact />
                         </Route>
                     </Switch>
