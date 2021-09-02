@@ -7,8 +7,8 @@ const Container = styled.div `
 	width: 130px;
 	right: calc(10% - 3rem);
 	top: 50px;
-	background: ${props => props.theme.clrPaper
-};
+	background: ${props => props.theme.clrPaper};
+	z-index: 99;
 	box-shadow: rgba(0, 0, 0, 0.09) 0px 3px 5px;
 	border-radius: 15px;
 	&.hidden {
